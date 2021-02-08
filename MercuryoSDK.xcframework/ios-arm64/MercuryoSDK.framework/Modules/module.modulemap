@@ -1,0 +1,6 @@
+framework module MercuryoSDK {
+    umbrella header "MercuryoSDK.h"
+
+    export *
+    module * { export * }
+}
