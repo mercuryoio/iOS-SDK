@@ -9,6 +9,15 @@ SDK is written on Koltin Multiplatform with goal to provide same shared code to 
 - iOS 13.0+
 
 ## Installation
+###CocoaPods
+Add the Mercuryo-SDK pod into your Podfile and run pod install.
+```ruby
+    target :YourTargetName do
+      pod 'Mercuryo-SDK'
+    end
+```
+
+### Manual Installation
 1. [Download archive](https://github.com/mercuryoio/iOS-SDK/archive/main.zip) and extract the zip.
 2. Drag `MercuryoSDK.xcframework` into your project.
 <img src="https://raw.githubusercontent.com/mercuryoio/iOS-SDK/main/images/copy_into_project.png" width="281" height="278">
