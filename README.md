@@ -12,7 +12,10 @@ SDK is written on Koltin Multiplatform with goal to provide same shared code to 
 1. [Download archive](https://github.com/mercuryoio/iOS-SDK/archive/main.zip) and extract the zip.
 2. Drag `MercuryoSDK.xcframework` into your project.
 <img src="https://raw.githubusercontent.com/mercuryoio/iOS-SDK/main/images/copy_into_project.png" width="281" height="278">
-
+3. Select "Copy items if needed" and click Finish.
+<img src="https://raw.githubusercontent.com/mercuryoio/iOS-SDK/main/images/copy_dialog.png" width="438" height="271">
+4. Don’t forget to change Embed property for MercuryoSDK.xcframework on “Embed & Sign”. This can be found in the “Frameworks, Libraries, and Embedded Content” section of your target’s “General” tab.
+<img src="https://raw.githubusercontent.com/mercuryoio/iOS-SDK/main/images/setup_guide.png" width="661" height="374">
 
 ## Usage
 – [Quickstart](https://github.com/mercuryoio/Mobile-SDK-Docs/tree/main/documentation/getstarted_en.md)
