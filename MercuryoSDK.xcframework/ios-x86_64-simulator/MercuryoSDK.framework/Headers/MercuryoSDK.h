@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MSDKIosCardManager, MSDKIosLibraryManager, MSDKIosOperationsManager, MSDKIosSessionManager, MSDKIosUserManager, MSDKIosWalletManager, MSDKAuthState, MSDKCardManager, MSDKLibraryManager, MSDKOperationsManager, MSDKSessionManager, MSDKUserManager, MSDKWalletManger, MSDKKotlinEnum<E>, MSDKTransactionType, MSDKBankColor, MSDKRedirect, MSDKBindingCardsLimit, MSDKBank, MSDKFee, MSDKEstimatedTime, MSDKLimit, MSDKMercuryoUserSanctionStatusType, MSDKMercuryoUserVerificationStatusType, MSDKMercuryoUserDocumentDetails, MSDKMercuryoUserDocumentDetailsError, MSDKPaymentSystem, MSDKRedirectFormItem, MSDKSupportedCurrencyAppConfig, MSDKSupportedCurrencyAppConfigDisplayOption, MSDKSupportedCurrencyAppConfigIcon, MSDKTxBlockChain, MSDKTxCard, MSDKReferralSum, MSDKReferralMonth, MSDKVerifyMetaDataNextStep, MSDKBindCard, MSDKKotlinUnit, MSDKBindings, MSDKCard, MSDKBindCardStatus, MSDKEstimateWithdrawFee, NSError, MSDKCountry, MSDKSupportedCurrency, MSDKIosOperationsManagerIosBuy, MSDKIosOperationsManagerIosSell, MSDKIosOperationsManagerIosWithdraw, MSDKTransactionStatus, MSDKLimitPair, MSDKRate, MSDKVerifyMetaData, MSDKUserSettings, MSDKUserReferralInfo, MSDKReferralTransaction, MSDKMercuryoUser, MSDKTransaction, MSDKWallet, MSDKOperationsManagerBuy, MSDKOperationsManagerSell, MSDKOperationsManagerWithdraw, MSDKKotlinThrowable, MSDKKotlinArray<T>, MSDKKotlinException, MSDKMercuryoException, MSDKAmountOffLimitsExceptionBody, MSDKAmountOffLimitsException, MSDKKotlinx_serialization_jsonJson, MSDKKotlinx_serialization_jsonJsonElement, MSDKCardLimitsExceptionBody, MSDKCardLimitsExceptionBodyEur, MSDKCardLimitsExceptionBodyOperations, MSDKCardLimitsException, MSDKRateChangedExceptionBody, MSDKRateChangedException, MSDKValidationException, MSDKKotlinRuntimeException, MSDKKotlinIllegalStateException, MSDKKotlinx_serialization_coreSerializersModule, MSDKKotlinx_serialization_coreSerialKind, MSDKKotlinNothing, MSDKKtor_client_coreHttpClientCall, MSDKKtor_httpOutgoingContent, MSDKKtor_httpHttpMethod, MSDKKtor_httpUrl, MSDKKtor_utilsAttributeKey<T>, MSDKKtor_client_coreTypeInfo, MSDKKtor_client_coreHttpClient, MSDKKtor_client_coreHttpResponse, MSDKKtor_httpContentType, MSDKKtor_httpHttpStatusCode, MSDKKtor_httpURLProtocol, MSDKKtor_client_coreHttpClientEngineConfig, MSDKKtor_client_coreHttpClientConfig<T>, MSDKKtor_client_coreHttpRequestBuilder, MSDKKotlinx_coroutines_coreCoroutineDispatcher, MSDKKtor_client_coreHttpReceivePipeline, MSDKKtor_client_coreHttpRequestPipeline, MSDKKtor_client_coreHttpResponsePipeline, MSDKKtor_client_coreHttpSendPipeline, MSDKKtor_utilsGMTDate, MSDKKtor_httpHttpProtocolVersion, MSDKKtor_httpHeaderValueParam, MSDKKtor_httpHeaderValueWithParameters, MSDKKotlinKTypeProjection, MSDKKtor_client_coreHttpRequestData, MSDKKtor_client_coreHttpResponseData, MSDKKtor_client_coreProxyConfig, MSDKKtor_httpHeadersBuilder, MSDKKtor_httpURLBuilder, MSDKKotlinAbstractCoroutineContextElement, MSDKKtor_utilsPipelinePhase, MSDKKtor_utilsPipeline<TSubject, TContext>, MSDKKtor_client_coreHttpResponseContainer, MSDKKtor_ioMemory, MSDKKtor_ioIoBuffer, MSDKKotlinByteArray, MSDKKtor_ioByteReadPacket, MSDKKtor_ioByteOrder, MSDKKtor_utilsWeekDay, MSDKKtor_utilsMonth, MSDKKotlinKVariance, MSDKKtor_utilsStringValuesBuilder, MSDKKtor_httpParametersBuilder, MSDKKotlinx_coroutines_coreCancellationException, MSDKKtor_ioBuffer, MSDKKtor_ioChunkBuffer, MSDKKotlinCharArray, MSDKKotlinByteIterator, MSDKKtor_ioAbstractInput, MSDKKtor_ioByteReadPacketBase, MSDKKtor_ioByteReadPacketPlatformBase, MSDKKotlinCharIterator, MSDKKotlinx_coroutines_coreAtomicDesc, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, MSDKKotlinx_coroutines_coreAtomicOp<__contravariant T>, MSDKKotlinx_coroutines_coreOpDescriptor, MSDKKotlinx_coroutines_coreLockFreeLinkedListNode, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class MSDKIosCardManager, MSDKIosLibraryManager, MSDKIosOperationsManager, MSDKIosSessionManager, MSDKIosUserManager, MSDKIosWalletManager, MSDKAuthState, MSDKCardManager, MSDKLibraryManager, MSDKOperationsManager, MSDKSessionManager, MSDKUserManager, MSDKWalletManger, MSDKKotlinEnum<E>, MSDKMercuryoError, MSDKTransactionType, MSDKBankColor, MSDKRedirect, MSDKBindingCardsLimit, MSDKBank, MSDKAmounts, MSDKFee, MSDKEstimatedTime, MSDKLimit, MSDKMercuryoUserSanctionStatusType, MSDKMercuryoUserVerificationStatusType, MSDKMercuryoUserDocumentDetails, MSDKMercuryoUserDocumentDetailsError, MSDKPaymentSystem, MSDKRedirectFormItem, MSDKSupportedCurrencyAppConfig, MSDKSupportedCurrencyAppConfigDisplayOption, MSDKSupportedCurrencyAppConfigIcon, MSDKTxBlockChain, MSDKTxCard, MSDKReferralSum, MSDKReferralMonth, MSDKVerifyMetaDataNextStep, MSDKBindCardStatus, MSDKKotlinUnit, MSDKBindings, MSDKCard, MSDKEstimateWithdrawFee, NSError, MSDKCountry, MSDKSupportedCurrency, MSDKIosOperationsManagerIosBuy, MSDKIosOperationsManagerIosSell, MSDKIosOperationsManagerIosWithdraw, MSDKTransactionStatus, MSDKLimitPair, MSDKRate, MSDKVerifyMetaData, MSDKUserSettings, MSDKUserReferralInfo, MSDKReferralTransaction, MSDKMercuryoUser, MSDKTransaction, MSDKWallet, MSDKKotlinThrowable, MSDKKotlinArray<T>, MSDKKotlinException, MSDKMercuryoException, MSDKAmountOffLimitsExceptionBody, MSDKAmountOffLimitsException, MSDKKotlinx_serialization_jsonJson, MSDKKotlinx_serialization_jsonJsonElement, MSDKRateChangedExceptionBody, MSDKRateChangedException, MSDKValidationException, MSDKKotlinRuntimeException, MSDKKotlinIllegalStateException, MSDKKotlinx_serialization_coreSerializersModule, MSDKKotlinx_serialization_coreSerialKind, MSDKKotlinNothing, MSDKKtor_client_coreHttpClientCall, MSDKKtor_httpOutgoingContent, MSDKKtor_httpHttpMethod, MSDKKtor_httpUrl, MSDKKtor_utilsAttributeKey<T>, MSDKKtor_client_coreTypeInfo, MSDKKtor_client_coreHttpClient, MSDKKtor_client_coreHttpResponse, MSDKKtor_httpContentType, MSDKKtor_httpHttpStatusCode, MSDKKtor_httpURLProtocol, MSDKKtor_client_coreHttpClientEngineConfig, MSDKKtor_client_coreHttpClientConfig<T>, MSDKKtor_client_coreHttpRequestBuilder, MSDKKotlinx_coroutines_coreCoroutineDispatcher, MSDKKtor_client_coreHttpReceivePipeline, MSDKKtor_client_coreHttpRequestPipeline, MSDKKtor_client_coreHttpResponsePipeline, MSDKKtor_client_coreHttpSendPipeline, MSDKKtor_utilsGMTDate, MSDKKtor_httpHttpProtocolVersion, MSDKKtor_httpHeaderValueParam, MSDKKtor_httpHeaderValueWithParameters, MSDKKotlinKTypeProjection, MSDKKtor_client_coreHttpRequestData, MSDKKtor_client_coreHttpResponseData, MSDKKtor_client_coreProxyConfig, MSDKKtor_httpHeadersBuilder, MSDKKtor_httpURLBuilder, MSDKKotlinAbstractCoroutineContextElement, MSDKKtor_utilsPipelinePhase, MSDKKtor_utilsPipeline<TSubject, TContext>, MSDKKtor_client_coreHttpResponseContainer, MSDKKtor_ioMemory, MSDKKtor_ioIoBuffer, MSDKKotlinByteArray, MSDKKtor_ioByteReadPacket, MSDKKtor_ioByteOrder, MSDKKtor_utilsWeekDay, MSDKKtor_utilsMonth, MSDKKotlinKVariance, MSDKKtor_utilsStringValuesBuilder, MSDKKtor_httpParametersBuilder, MSDKKotlinx_coroutines_coreCancellationException, MSDKKtor_ioBuffer, MSDKKtor_ioChunkBuffer, MSDKKotlinCharArray, MSDKKotlinByteIterator, MSDKKtor_ioAbstractInput, MSDKKtor_ioByteReadPacketBase, MSDKKtor_ioByteReadPacketPlatformBase, MSDKKotlinCharIterator, MSDKKotlinx_coroutines_coreAtomicDesc, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, MSDKKotlinx_coroutines_coreAtomicOp<__contravariant T>, MSDKKotlinx_coroutines_coreOpDescriptor, MSDKKotlinx_coroutines_coreLockFreeLinkedListNode, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, MSDKKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol MSDKAuthStateListener, MSDKKotlinComparable, MSDKKotlinx_serialization_coreKSerializer, MSDKConverterResult, MSDKKotlinCoroutineContext, MSDKKotlinx_coroutines_coreCoroutineScope, MSDKCancelable, MSDKKotlinx_serialization_coreEncoder, MSDKKotlinx_serialization_coreSerialDescriptor, MSDKKotlinx_serialization_coreSerializationStrategy, MSDKKotlinx_serialization_coreDecoder, MSDKKotlinx_serialization_coreDeserializationStrategy, MSDKKtor_client_coreHttpRequest, MSDKKotlinCoroutineContextElement, MSDKKotlinCoroutineContextKey, MSDKKotlinx_serialization_coreCompositeEncoder, MSDKKotlinAnnotation, MSDKKotlinx_serialization_coreCompositeDecoder, MSDKKotlinIterator, MSDKKotlinx_serialization_coreSerialFormat, MSDKKotlinx_serialization_coreStringFormat, MSDKKtor_utilsAttributes, MSDKKtor_httpHeaders, MSDKKtor_httpHttpMessage, MSDKKotlinx_serialization_coreSerializersModuleCollector, MSDKKotlinKClass, MSDKKtor_httpParameters, MSDKKotlinMapEntry, MSDKKtor_utilsStringValues, MSDKKotlinKDeclarationContainer, MSDKKotlinKAnnotatedElement, MSDKKotlinKClassifier, MSDKKotlinKType, MSDKKtor_ioCloseable, MSDKKtor_client_coreHttpClientEngine, MSDKKtor_client_coreHttpClientEngineCapability, MSDKKtor_ioByteReadChannel, MSDKKtor_client_coreHttpClientFeature, MSDKKtor_httpHttpMessageBuilder, MSDKKotlinx_coroutines_coreJob, MSDKKotlinContinuation, MSDKKotlinContinuationInterceptor, MSDKKotlinx_coroutines_coreRunnable, MSDKKotlinSuspendFunction2, MSDKKtor_ioReadSession, MSDKKotlinSuspendFunction1, MSDKKotlinAppendable, MSDKKotlinx_coroutines_coreChildHandle, MSDKKotlinx_coroutines_coreChildJob, MSDKKotlinx_coroutines_coreDisposableHandle, MSDKKotlinSequence, MSDKKotlinx_coroutines_coreSelectClause0, MSDKKotlinFunction, MSDKKtor_ioObjectPool, MSDKKtor_ioInput, MSDKKtor_ioOutput, MSDKKotlinx_coroutines_coreParentJob, MSDKKotlinx_coroutines_coreSelectInstance, MSDKKotlinSuspendFunction0;
+@protocol MSDKAuthStateListener, MSDKKotlinComparable, MSDKKotlinx_serialization_coreKSerializer, MSDKConverterResult, MSDKKotlinCoroutineContext, MSDKKotlinx_coroutines_coreCoroutineScope, MSDKCancelable, MSDKComplexConverterResult, MSDKBuyOperations, MSDKSellOperations, MSDKWithdrawOperations, MSDKKotlinx_serialization_coreEncoder, MSDKKotlinx_serialization_coreSerialDescriptor, MSDKKotlinx_serialization_coreSerializationStrategy, MSDKKotlinx_serialization_coreDecoder, MSDKKotlinx_serialization_coreDeserializationStrategy, MSDKKtor_client_coreHttpRequest, MSDKKotlinCoroutineContextElement, MSDKKotlinCoroutineContextKey, MSDKKotlinx_serialization_coreCompositeEncoder, MSDKKotlinAnnotation, MSDKKotlinx_serialization_coreCompositeDecoder, MSDKKotlinIterator, MSDKKotlinx_serialization_coreSerialFormat, MSDKKotlinx_serialization_coreStringFormat, MSDKKtor_utilsAttributes, MSDKKtor_httpHeaders, MSDKKtor_httpHttpMessage, MSDKKotlinx_serialization_coreSerializersModuleCollector, MSDKKotlinKClass, MSDKKtor_httpParameters, MSDKKotlinMapEntry, MSDKKtor_utilsStringValues, MSDKKotlinKDeclarationContainer, MSDKKotlinKAnnotatedElement, MSDKKotlinKClassifier, MSDKKotlinKType, MSDKKtor_ioCloseable, MSDKKtor_client_coreHttpClientEngine, MSDKKtor_client_coreHttpClientEngineCapability, MSDKKtor_ioByteReadChannel, MSDKKtor_client_coreHttpClientFeature, MSDKKtor_httpHttpMessageBuilder, MSDKKotlinx_coroutines_coreJob, MSDKKotlinContinuation, MSDKKotlinContinuationInterceptor, MSDKKotlinx_coroutines_coreRunnable, MSDKKotlinSuspendFunction2, MSDKKtor_ioReadSession, MSDKKotlinSuspendFunction1, MSDKKotlinAppendable, MSDKKotlinx_coroutines_coreChildHandle, MSDKKotlinx_coroutines_coreChildJob, MSDKKotlinx_coroutines_coreDisposableHandle, MSDKKotlinSequence, MSDKKotlinx_coroutines_coreSelectClause0, MSDKKotlinFunction, MSDKKtor_ioObjectPool, MSDKKtor_ioInput, MSDKKtor_ioOutput, MSDKKotlinx_coroutines_coreParentJob, MSDKKotlinx_coroutines_coreSelectInstance, MSDKKotlinSuspendFunction0;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -196,6 +196,20 @@ __attribute__((swift_name("KotlinEnum")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MercuryoError")))
+@interface MSDKMercuryoError : MSDKKotlinEnum<MSDKMercuryoError *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) MSDKMercuryoError *currencynotsupportfee __attribute__((swift_name("currencynotsupportfee")));
+@property (class, readonly) MSDKMercuryoError *validation __attribute__((swift_name("validation")));
+@property (class, readonly) MSDKMercuryoError *amountofflimits __attribute__((swift_name("amountofflimits")));
+@property (class, readonly) MSDKMercuryoError *ratechanged __attribute__((swift_name("ratechanged")));
+@property (class, readonly) MSDKMercuryoError *mercuryocommon __attribute__((swift_name("mercuryocommon")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TransactionType")))
 @interface MSDKTransactionType : MSDKKotlinEnum<MSDKTransactionType *>
 + (instancetype)alloc __attribute__((unavailable));
@@ -207,6 +221,12 @@ __attribute__((swift_name("TransactionType")))
 @property (class, readonly) MSDKTransactionType *withdraw __attribute__((swift_name("withdraw")));
 @property (class, readonly) MSDKTransactionType *referral __attribute__((swift_name("referral")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Amounts")))
+@interface MSDKAmounts : MSDKBase
+- (NSString * _Nullable)getCurrency:(NSString *)currency __attribute__((swift_name("get(currency:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -248,24 +268,6 @@ __attribute__((swift_name("Bank.ColorCompanion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Bank.Companion")))
 @interface MSDKBankCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BindCard")))
-@interface MSDKBindCard : MSDKBase
-- (instancetype)initWithId:(NSString * _Nullable)id status:(NSString *)status redirect:(MSDKRedirect * _Nullable)redirect __attribute__((swift_name("init(id:status:redirect:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
-@property (readonly) MSDKRedirect * _Nullable redirect __attribute__((swift_name("redirect")));
-@property (readonly) NSString *status __attribute__((swift_name("status")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BindCard.Companion")))
-@interface MSDKBindCardCompanion : MSDKBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
@@ -323,36 +325,6 @@ __attribute__((swift_name("Bindings.Companion")))
 - (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((swift_name("ConverterResult")))
-@protocol MSDKConverterResult
-@required
-@property (readonly) NSString *amount __attribute__((swift_name("amount")));
-@property (readonly) NSString *currency __attribute__((swift_name("currency")));
-@property (readonly) NSString *fiatAmount __attribute__((swift_name("fiatAmount")));
-@property (readonly) NSString *fiatCurrency __attribute__((swift_name("fiatCurrency")));
-@property (readonly) NSString *token __attribute__((swift_name("token")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BuyRate")))
-@interface MSDKBuyRate : MSDKBase <MSDKConverterResult>
-- (instancetype)initWith_token:(NSString * _Nullable)_token currency:(NSString *)currency amount:(NSString *)amount fiatCurrency:(NSString *)fiatCurrency fiatAmount:(NSString *)fiatAmount __attribute__((swift_name("init(_token:currency:amount:fiatCurrency:fiatAmount:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *amount __attribute__((swift_name("amount")));
-@property (readonly) NSString *currency __attribute__((swift_name("currency")));
-@property (readonly) NSString *fiatAmount __attribute__((swift_name("fiatAmount")));
-@property (readonly) NSString *fiatCurrency __attribute__((swift_name("fiatCurrency")));
-@property (readonly) NSString *token __attribute__((swift_name("token")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BuyRate.Companion")))
-@interface MSDKBuyRateCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Card")))
 @interface MSDKCard : MSDKBase
@@ -375,24 +347,34 @@ __attribute__((swift_name("Card.Companion")))
 - (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ConverterRate")))
-@interface MSDKConverterRate : MSDKBase <MSDKConverterResult>
-- (instancetype)initWith_token:(NSString * _Nullable)_token currency:(NSString *)currency amount:(NSString *)amount fiatCurrency:(NSString *)fiatCurrency fiatAmount:(NSString *)fiatAmount __attribute__((swift_name("init(_token:currency:amount:fiatCurrency:fiatAmount:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *amount __attribute__((swift_name("amount")));
-@property (readonly) NSString *currency __attribute__((swift_name("currency")));
-@property (readonly) NSString *fiatAmount __attribute__((swift_name("fiatAmount")));
-@property (readonly) NSString *fiatCurrency __attribute__((swift_name("fiatCurrency")));
+__attribute__((swift_name("ComplexConverterResult")))
+@protocol MSDKComplexConverterResult
+@required
+@property (readonly) id<MSDKConverterResult> withFee __attribute__((swift_name("withFee")));
+@property (readonly) id<MSDKConverterResult> withoutFee __attribute__((swift_name("withoutFee")));
+@end;
+
+__attribute__((swift_name("ConverterResult")))
+@protocol MSDKConverterResult
+@required
+@property (readonly) MSDKAmounts *fee __attribute__((swift_name("fee")));
+@property (readonly) NSString *rate __attribute__((swift_name("rate")));
+@property (readonly) NSString *rateWithFee __attribute__((swift_name("rateWithFee")));
+@property (readonly) MSDKAmounts *subtotal __attribute__((swift_name("subtotal")));
 @property (readonly) NSString *token __attribute__((swift_name("token")));
+@property (readonly) MSDKAmounts *total __attribute__((swift_name("total")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ConverterRate.Companion")))
-@interface MSDKConverterRateCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+__attribute__((swift_name("ConverterResultImpl")))
+@interface MSDKConverterResultImpl : MSDKBase <MSDKConverterResult>
+- (instancetype)initWithToken:(NSString *)token rate:(NSString *)rate rateWithFee:(NSString *)rateWithFee fee:(MSDKAmounts *)fee subtotal:(MSDKAmounts *)subtotal total:(MSDKAmounts *)total __attribute__((swift_name("init(token:rate:rateWithFee:fee:subtotal:total:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) MSDKAmounts *fee __attribute__((swift_name("fee")));
+@property (readonly) NSString *rate __attribute__((swift_name("rate")));
+@property (readonly) NSString *rateWithFee __attribute__((swift_name("rateWithFee")));
+@property (readonly) MSDKAmounts *subtotal __attribute__((swift_name("subtotal")));
+@property (readonly) NSString *token __attribute__((swift_name("token")));
+@property (readonly) MSDKAmounts *total __attribute__((swift_name("total")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -634,6 +616,28 @@ __attribute__((swift_name("PaymentSystem")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PublicRate")))
+@interface MSDKPublicRate : MSDKBase
+- (instancetype)initWithCurrency:(NSString *)currency amount:(NSString *)amount fiatCurrency:(NSString *)fiatCurrency fiatAmount:(NSString *)fiatAmount feeAmount:(NSString *)feeAmount feeCurrency:(NSString *)feeCurrency rate:(NSString *)rate __attribute__((swift_name("init(currency:amount:fiatCurrency:fiatAmount:feeAmount:feeCurrency:rate:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *amount __attribute__((swift_name("amount")));
+@property (readonly) NSString *currency __attribute__((swift_name("currency")));
+@property (readonly) NSString *feeAmount __attribute__((swift_name("feeAmount")));
+@property (readonly) NSString *feeCurrency __attribute__((swift_name("feeCurrency")));
+@property (readonly) NSString *fiatAmount __attribute__((swift_name("fiatAmount")));
+@property (readonly) NSString *fiatCurrency __attribute__((swift_name("fiatCurrency")));
+@property (readonly) NSString *rate __attribute__((swift_name("rate")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PublicRate.Companion")))
+@interface MSDKPublicRateCompanion : MSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Rate")))
 @interface MSDKRate : MSDKBase
 - (instancetype)initWithFrom:(NSString *)from to:(NSString *)to type:(NSString *)type rate:(NSString *)rate __attribute__((swift_name("init(from:to:type:rate:)"))) __attribute__((objc_designated_initializer));
@@ -737,26 +741,6 @@ __attribute__((swift_name("ReferralTransaction")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReferralTransaction.Companion")))
 @interface MSDKReferralTransactionCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SellRate")))
-@interface MSDKSellRate : MSDKBase <MSDKConverterResult>
-- (instancetype)initWith_token:(NSString * _Nullable)_token currency:(NSString *)currency amount:(NSString *)amount fiatCurrency:(NSString *)fiatCurrency fiatAmount:(NSString *)fiatAmount __attribute__((swift_name("init(_token:currency:amount:fiatCurrency:fiatAmount:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *amount __attribute__((swift_name("amount")));
-@property (readonly) NSString *currency __attribute__((swift_name("currency")));
-@property (readonly) NSString *fiatAmount __attribute__((swift_name("fiatAmount")));
-@property (readonly) NSString *fiatCurrency __attribute__((swift_name("fiatCurrency")));
-@property (readonly) NSString *token __attribute__((swift_name("token")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SellRate.Companion")))
-@interface MSDKSellRateCompanion : MSDKBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
@@ -1008,26 +992,6 @@ __attribute__((swift_name("Wallet.Companion")))
 - (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WithdrawRate")))
-@interface MSDKWithdrawRate : MSDKBase <MSDKConverterResult>
-- (instancetype)initWithCurrency:(NSString *)currency amount:(NSString *)amount fiatCurrency:(NSString *)fiatCurrency fiatAmount:(NSString *)fiatAmount __attribute__((swift_name("init(currency:amount:fiatCurrency:fiatAmount:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *amount __attribute__((swift_name("amount")));
-@property (readonly) NSString *currency __attribute__((swift_name("currency")));
-@property (readonly) NSString *fiatAmount __attribute__((swift_name("fiatAmount")));
-@property (readonly) NSString *fiatCurrency __attribute__((swift_name("fiatCurrency")));
-@property (readonly) NSString *token __attribute__((swift_name("token")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WithdrawRate.Companion")))
-@interface MSDKWithdrawRateCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
 __attribute__((swift_name("Cancelable")))
 @protocol MSDKCancelable
 @required
@@ -1042,7 +1006,7 @@ __attribute__((swift_name("CardManager")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)bindCardHolderName:(NSString *)holderName number:(NSString *)number cvv:(NSString *)cvv expirationMonth:(NSString *)expirationMonth expirationYear:(NSString *)expirationYear redirectUrl:(NSString *)redirectUrl completionHandler:(void (^)(MSDKBindCard * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("bindCard(holderName:number:cvv:expirationMonth:expirationYear:redirectUrl:completionHandler:)")));
+- (void)bindCardHolderName:(NSString *)holderName number:(NSString *)number cvv:(NSString *)cvv expirationMonth:(NSString *)expirationMonth expirationYear:(NSString *)expirationYear redirectUrl:(NSString *)redirectUrl completionHandler:(void (^)(MSDKBindCardStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("bindCard(holderName:number:cvv:expirationMonth:expirationYear:redirectUrl:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -1094,7 +1058,7 @@ __attribute__((swift_name("IosCardManager")))
  @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (id<MSDKCancelable> _Nullable)bindCardHolderName:(NSString *)holderName number:(NSString *)number cvv:(NSString *)cvv expirationMonth:(NSString *)expirationMonth expirationYear:(NSString *)expirationYear redirectUrl:(NSString *)redirectUrl error:(NSError * _Nullable * _Nullable)error callback:(void (^)(MSDKBindCard * _Nullable, NSError * _Nullable))callback __attribute__((swift_name("bindCard(holderName:number:cvv:expirationMonth:expirationYear:redirectUrl:callback:)")));
+- (id<MSDKCancelable> _Nullable)bindCardHolderName:(NSString *)holderName number:(NSString *)number cvv:(NSString *)cvv expirationMonth:(NSString *)expirationMonth expirationYear:(NSString *)expirationYear redirectUrl:(NSString *)redirectUrl error:(NSError * _Nullable * _Nullable)error callback:(void (^)(MSDKBindCardStatus * _Nullable, NSError * _Nullable))callback __attribute__((swift_name("bindCard(holderName:number:cvv:expirationMonth:expirationYear:redirectUrl:callback:)")));
 
 /**
  @note This method converts instances of Exception to errors.
@@ -1175,7 +1139,13 @@ __attribute__((swift_name("IosOperationsManager.IosBuy")))
  @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (id<MSDKCancelable> _Nullable)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:callback:)")));
+- (id<MSDKCancelable> _Nullable)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount isTotal:(BOOL)isTotal error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:isTotal:callback:)")));
+
+/**
+ @note This method converts instances of Exception to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (id<MSDKCancelable> _Nullable)convertComplexFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKComplexConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convertComplex(fromCurrency:toCurrency:amount:callback:)")));
 
 /**
  @note This method converts instances of Exception to errors.
@@ -1216,7 +1186,13 @@ __attribute__((swift_name("IosOperationsManager.IosSell")))
  @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (id<MSDKCancelable> _Nullable)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:callback:)")));
+- (id<MSDKCancelable> _Nullable)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount isTotal:(BOOL)isTotal error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:isTotal:callback:)")));
+
+/**
+ @note This method converts instances of Exception to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (id<MSDKCancelable> _Nullable)convertComplexFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKComplexConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convertComplex(fromCurrency:toCurrency:amount:callback:)")));
 
 /**
  @note This method converts instances of Exception to errors.
@@ -1245,7 +1221,7 @@ __attribute__((swift_name("IosOperationsManager.IosWithdraw")))
  @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (id<MSDKCancelable> _Nullable)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:callback:)")));
+- (id<MSDKCancelable> _Nullable)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount isTotal:(BOOL)isTotal error:(NSError * _Nullable * _Nullable)error callback:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))callback __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:isTotal:callback:)")));
 
 /**
  @note This method converts instances of Exception to errors.
@@ -1433,7 +1409,7 @@ __attribute__((swift_name("IosWalletManager")))
  @note This method converts instances of Exception to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (id<MSDKCancelable> _Nullable)getWalletsAndReturnError:(NSError * _Nullable * _Nullable)error callback:(void (^)(NSArray<MSDKWallet *> * _Nullable, NSError * _Nullable))callback __attribute__((swift_name("getWallets(callback:)")));
+- (id<MSDKCancelable> _Nullable)getWalletsFiatCurrency:(NSString * _Nullable)fiatCurrency error:(NSError * _Nullable * _Nullable)error callback:(void (^)(NSArray<MSDKWallet *> * _Nullable, NSError * _Nullable))callback __attribute__((swift_name("getWallets(fiatCurrency:callback:)")));
 @property (readonly) id<MSDKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end;
 
@@ -1457,120 +1433,9 @@ __attribute__((swift_name("LibraryManager")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("OperationsManager")))
 @interface MSDKOperationsManager : MSDKBase
-@property (readonly) MSDKOperationsManagerBuy *buy __attribute__((swift_name("buy")));
-@property (readonly) MSDKOperationsManagerSell *sell __attribute__((swift_name("sell")));
-@property (readonly) MSDKOperationsManagerWithdraw *withdraw __attribute__((swift_name("withdraw")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OperationsManager.Buy")))
-@interface MSDKOperationsManagerBuy : MSDKBase
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)commitCardId:(NSString *)cardId cvv:(NSString *)cvv buyToken:(NSString *)buyToken redirectUrl:(NSString *)redirectUrl completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("commit(cardId:cvv:buyToken:redirectUrl:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount completionHandler:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getLimitsCryptoCurrency:(NSString *)cryptoCurrency fiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(MSDKLimitPair * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLimits(cryptoCurrency:fiatCurrency:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getRateFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency completionHandler:(void (^)(MSDKRate * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRate(fromCurrency:toCurrency:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getStatusTransactionId:(NSString *)transactionId completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getStatus(transactionId:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)verifyDescriptorTransactionId:(NSString *)transactionId code:(NSString *)code completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("verifyDescriptor(transactionId:code:completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OperationsManager.Sell")))
-@interface MSDKOperationsManagerSell : MSDKBase
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)commitCardId:(NSString *)cardId sellToken:(NSString *)sellToken completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("commit(cardId:sellToken:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount completionHandler:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getLimitsCryptoCurrency:(NSString *)cryptoCurrency fiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(MSDKLimitPair * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLimits(cryptoCurrency:fiatCurrency:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getRateFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency completionHandler:(void (^)(MSDKRate * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRate(fromCurrency:toCurrency:completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OperationsManager.Withdraw")))
-@interface MSDKOperationsManagerWithdraw : MSDKBase
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)commitCurrency:(NSString *)currency address:(NSString *)address amount:(NSString *)amount estimateId:(NSString * _Nullable)estimateId completionHandler:(void (^)(MSDKVerifyMetaData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("commit(currency:address:amount:estimateId:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount completionHandler:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getEstimateFeeCurrency:(NSString *)currency fiatCurrency:(NSString *)fiatCurrency address:(NSString *)address amount:(NSString *)amount completionHandler:(void (^)(MSDKEstimateWithdrawFee * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getEstimateFee(currency:fiatCurrency:address:amount:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getLimitsCryptoCurrency:(NSString *)cryptoCurrency fiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(MSDKLimitPair * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLimits(cryptoCurrency:fiatCurrency:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getRateFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency completionHandler:(void (^)(MSDKRate * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRate(fromCurrency:toCurrency:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)verifyNext:(MSDKVerifyMetaDataNextStep *)next key:(NSString *)key code:(NSString *)code completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("verify(next:key:code:completionHandler:)")));
+@property (readonly) id<MSDKBuyOperations> buy __attribute__((swift_name("buy")));
+@property (readonly) id<MSDKSellOperations> sell __attribute__((swift_name("sell")));
+@property (readonly) id<MSDKWithdrawOperations> withdraw __attribute__((swift_name("withdraw")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1731,7 +1596,7 @@ __attribute__((swift_name("WalletManger")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getWalletsWithCompletionHandler:(void (^)(NSArray<MSDKWallet *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getWallets(completionHandler:)")));
+- (void)getWalletsFiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(NSArray<MSDKWallet *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getWallets(fiatCurrency:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -1794,21 +1659,21 @@ __attribute__((swift_name("KotlinException")))
 
 __attribute__((swift_name("MercuryoException")))
 @interface MSDKMercuryoException : MSDKKotlinException
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithStatus:(int64_t)status code:(int64_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithCause:(MSDKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) int32_t code __attribute__((swift_name("code")));
-@property (readonly) int32_t status __attribute__((swift_name("status")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@property (readonly) int64_t status __attribute__((swift_name("status")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AmountOffLimitsException")))
 @interface MSDKAmountOffLimitsException : MSDKMercuryoException
 - (instancetype)initWithMessage:(NSString *)message body:(MSDKAmountOffLimitsExceptionBody * _Nullable)body __attribute__((swift_name("init(message:body:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithStatus:(int64_t)status code:(int64_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (readonly) MSDKAmountOffLimitsExceptionBody * _Nullable body __attribute__((swift_name("body")));
 @end;
 
@@ -1837,76 +1702,8 @@ __attribute__((swift_name("AmountOffLimitsException.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 - (MSDKAmountOffLimitsException *)createWithJsonBodyJson:(MSDKKotlinx_serialization_jsonJson *)json message:(NSString *)message jsonBody:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)jsonBody __attribute__((swift_name("createWithJsonBody(json:message:jsonBody:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException")))
-@interface MSDKCardLimitsException : MSDKMercuryoException
-- (instancetype)initWithMessage:(NSString *)message body:(MSDKCardLimitsExceptionBody * _Nullable)body __attribute__((swift_name("init(message:body:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) MSDKCardLimitsExceptionBody * _Nullable body __attribute__((swift_name("body")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.Body")))
-@interface MSDKCardLimitsExceptionBody : MSDKBase
-- (instancetype)initWithEur:(MSDKCardLimitsExceptionBodyEur * _Nullable)eur __attribute__((swift_name("init(eur:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) MSDKCardLimitsExceptionBodyEur * _Nullable eur __attribute__((swift_name("eur")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.BodyCompanion")))
-@interface MSDKCardLimitsExceptionBodyCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.BodyEur")))
-@interface MSDKCardLimitsExceptionBodyEur : MSDKBase
-- (instancetype)initWithInitMonth:(NSString * _Nullable)initMonth month:(NSString * _Nullable)month max:(NSString * _Nullable)max initOpDay:(NSString * _Nullable)initOpDay maxOp:(NSString * _Nullable)maxOp operations:(MSDKCardLimitsExceptionBodyOperations * _Nullable)operations __attribute__((swift_name("init(initMonth:month:max:initOpDay:maxOp:operations:)"))) __attribute__((objc_designated_initializer));
-@property (readonly, getter=doInitMonth) NSString * _Nullable initMonth __attribute__((swift_name("initMonth")));
-@property (readonly, getter=doInitOpDay) NSString * _Nullable initOpDay __attribute__((swift_name("initOpDay")));
-@property (readonly) NSString * _Nullable max __attribute__((swift_name("max")));
-@property (readonly) NSString * _Nullable maxOp __attribute__((swift_name("maxOp")));
-@property (readonly) NSString * _Nullable month __attribute__((swift_name("month")));
-@property (readonly) MSDKCardLimitsExceptionBodyOperations * _Nullable operations __attribute__((swift_name("operations")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.BodyEurCompanion")))
-@interface MSDKCardLimitsExceptionBodyEurCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.BodyOperations")))
-@interface MSDKCardLimitsExceptionBodyOperations : MSDKBase
-- (instancetype)initWithOpDay:(NSString * _Nullable)opDay __attribute__((swift_name("init(opDay:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString * _Nullable opDay __attribute__((swift_name("opDay")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.BodyOperationsCompanion")))
-@interface MSDKCardLimitsExceptionBodyOperationsCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<MSDKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CardLimitsException.Companion")))
-@interface MSDKCardLimitsExceptionCompanion : MSDKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (MSDKCardLimitsException *)createWithJsonBodyJson:(MSDKKotlinx_serialization_jsonJson *)json message:(NSString *)message jsonBody:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)jsonBody __attribute__((swift_name("createWithJsonBody(json:message:jsonBody:)")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@property (readonly) int64_t status __attribute__((swift_name("status")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1914,21 +1711,31 @@ __attribute__((swift_name("CurrencyNotSupportFeeException")))
 @interface MSDKCurrencyNotSupportFeeException : MSDKMercuryoException
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithStatus:(int64_t)status code:(int64_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CurrencyNotSupportFeeException.Companion")))
+@interface MSDKCurrencyNotSupportFeeExceptionCompanion : MSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@property (readonly) int64_t status __attribute__((swift_name("status")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ExceptionFactory")))
 @interface MSDKExceptionFactory : MSDKBase
 - (instancetype)initWithJson:(MSDKKotlinx_serialization_jsonJson *)json __attribute__((swift_name("init(json:)"))) __attribute__((objc_designated_initializer));
-- (MSDKMercuryoException *)createRequest:(id<MSDKKtor_client_coreHttpRequest>)request status:(int32_t)status code:(int32_t)code message:(NSString *)message jsonBody:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)jsonBody __attribute__((swift_name("create(request:status:code:message:jsonBody:)")));
+- (MSDKMercuryoException *)createRequest:(id<MSDKKtor_client_coreHttpRequest>)request status:(int64_t)status code:(int64_t)code message:(NSString *)message jsonBody:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)jsonBody __attribute__((swift_name("create(request:status:code:message:jsonBody:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RateChangedException")))
 @interface MSDKRateChangedException : MSDKMercuryoException
 - (instancetype)initWithMessage:(NSString *)message body:(MSDKRateChangedExceptionBody * _Nullable)body __attribute__((swift_name("init(message:body:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithStatus:(int64_t)status code:(int64_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (readonly) MSDKRateChangedExceptionBody * _Nullable body __attribute__((swift_name("body")));
 @end;
 
@@ -1959,20 +1766,32 @@ __attribute__((swift_name("RateChangedException.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 - (MSDKRateChangedException *)createWithJsonBodyJson:(MSDKKotlinx_serialization_jsonJson *)json message:(NSString *)message jsonBody:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)jsonBody __attribute__((swift_name("createWithJsonBody(json:message:jsonBody:)")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@property (readonly) int64_t status __attribute__((swift_name("status")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UnauthorizedException")))
 @interface MSDKUnauthorizedException : MSDKMercuryoException
 - (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithStatus:(int64_t)status code:(int64_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UnauthorizedException.Companion")))
+@interface MSDKUnauthorizedExceptionCompanion : MSDKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@property (readonly) int64_t status __attribute__((swift_name("status")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ValidationException")))
 @interface MSDKValidationException : MSDKMercuryoException
 - (instancetype)initWithMessage:(NSString *)message validationFields:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)validationFields __attribute__((swift_name("init(message:validationFields:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStatus:(int32_t)status code:(int32_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithStatus:(int64_t)status code:(int64_t)code message:(NSString *)message __attribute__((swift_name("init(status:code:message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (readonly) NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable validationFields __attribute__((swift_name("validationFields")));
 @end;
 
@@ -1983,6 +1802,131 @@ __attribute__((swift_name("ValidationException.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 - (MSDKValidationException *)createWithJsonBodyMessage:(NSString *)message jsonBody:(NSDictionary<NSString *, MSDKKotlinx_serialization_jsonJsonElement *> * _Nullable)jsonBody __attribute__((swift_name("createWithJsonBody(message:jsonBody:)")));
+@property (readonly) int64_t code __attribute__((swift_name("code")));
+@property (readonly) int64_t status __attribute__((swift_name("status")));
+@end;
+
+__attribute__((swift_name("BuyOperations")))
+@protocol MSDKBuyOperations
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)commitCardId:(NSString *)cardId cvv:(NSString *)cvv buyToken:(NSString *)buyToken redirectUrl:(NSString *)redirectUrl completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("commit(cardId:cvv:buyToken:redirectUrl:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount isTotal:(BOOL)isTotal completionHandler:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:isTotal:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)convertComplexFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount completionHandler:(void (^)(id<MSDKComplexConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convertComplex(fromCurrency:toCurrency:amount:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getLimitsCryptoCurrency:(NSString *)cryptoCurrency fiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(MSDKLimitPair * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLimits(cryptoCurrency:fiatCurrency:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getRateFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency completionHandler:(void (^)(MSDKRate * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRate(fromCurrency:toCurrency:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getStatusTransactionId:(NSString *)transactionId completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getStatus(transactionId:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)verifyDescriptorTransactionId:(NSString *)transactionId code:(NSString *)code completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("verifyDescriptor(transactionId:code:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("SellOperations")))
+@protocol MSDKSellOperations
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)commitCardId:(NSString *)cardId sellToken:(NSString *)sellToken completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("commit(cardId:sellToken:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount isTotal:(BOOL)isTotal completionHandler:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:isTotal:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)convertComplexFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount completionHandler:(void (^)(id<MSDKComplexConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convertComplex(fromCurrency:toCurrency:amount:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getLimitsCryptoCurrency:(NSString *)cryptoCurrency fiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(MSDKLimitPair * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLimits(cryptoCurrency:fiatCurrency:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getRateFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency completionHandler:(void (^)(MSDKRate * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRate(fromCurrency:toCurrency:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("WithdrawOperations")))
+@protocol MSDKWithdrawOperations
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)commitCurrency:(NSString *)currency address:(NSString *)address amount:(NSString *)amount estimateId:(NSString * _Nullable)estimateId completionHandler:(void (^)(MSDKVerifyMetaData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("commit(currency:address:amount:estimateId:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)convertFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency amount:(NSString *)amount isTotal:(BOOL)isTotal completionHandler:(void (^)(id<MSDKConverterResult> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("convert(fromCurrency:toCurrency:amount:isTotal:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getEstimateFeeCurrency:(NSString *)currency fiatCurrency:(NSString *)fiatCurrency address:(NSString *)address amount:(NSString *)amount completionHandler:(void (^)(MSDKEstimateWithdrawFee * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getEstimateFee(currency:fiatCurrency:address:amount:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getLimitsCryptoCurrency:(NSString *)cryptoCurrency fiatCurrency:(NSString * _Nullable)fiatCurrency completionHandler:(void (^)(MSDKLimitPair * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLimits(cryptoCurrency:fiatCurrency:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getRateFromCurrency:(NSString *)fromCurrency toCurrency:(NSString *)toCurrency completionHandler:(void (^)(MSDKRate * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getRate(fromCurrency:toCurrency:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)verifyNext:(MSDKVerifyMetaDataNextStep *)next key:(NSString *)key code:(NSString *)code completionHandler:(void (^)(MSDKTransactionStatus * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("verify(next:key:code:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1992,6 +1936,7 @@ __attribute__((swift_name("Platform")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)platform __attribute__((swift_name("init()")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *userAgent __attribute__((swift_name("userAgent")));
 @end;
 
 __attribute__((swift_name("KotlinRuntimeException")))
